@@ -9,6 +9,8 @@ Has:
  - Zend Developer Tools
  - Doctrine
  - ZFtools CLI
+ - Bootstrap 4
+ 
 
 Installation using git
 ---------------------------
