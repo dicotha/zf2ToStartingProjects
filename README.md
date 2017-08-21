@@ -29,7 +29,7 @@ create a db in your mysql called sis3
 Still in the folder root execute this command to validate your db
 
 ```sh
-vendor/bin/doctrine-module orm:validate-schema
+./vendor/bin/doctrine-module orm:validate-schema
 
 ```
 
