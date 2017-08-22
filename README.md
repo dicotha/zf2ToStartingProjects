@@ -22,9 +22,17 @@ Navigate to the folder root, execute the command line below
 composer install
 
 ```
+Before that, go to folder 
+```sh
+vendor\zendframework\zend-developer-tools\config
+```
+copy the file zenddevelopertools.local.php.dist and send the copy to folde :
+```sh
+config\autoload
+```
+rename the file to "zdt.local.php"
 
-create a db in your mysql called sis3
-
+Go to your mysql and create a db called sis3
 
 Still in the folder root execute this command to validate your db
 
