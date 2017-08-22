@@ -32,6 +32,23 @@ config\autoload
 ```
 Rename the file to "zdt.local.php"
 
+In this same folder create a file with the name doctrine.local.php and put this code below inside
+```sh
+<?php
+return array(
+    'doctrine' => array(
+        'connection' => array(
+            'orm_default' => array(
+                'driverClass' =>'Doctrine\DBAL\Driver\PDOMySql\Driver',
+                'params' => array(
+                    'host'     => 'localhost',
+                    'port'     => '',
+                    'user'     => 'root',
+                    'password' => '',
+                    'dbname'   => 'sis3',
+                )))));
+```
+
 Go to your mysql and create a db called sis3
 
 Still in the folder root execute this command to validate your db
