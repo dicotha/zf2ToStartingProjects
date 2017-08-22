@@ -26,11 +26,11 @@ Before that, go to folder
 ```sh
 vendor\zendframework\zend-developer-tools\config
 ```
-copy the file zenddevelopertools.local.php.dist and send the copy to folde :
+copy the file zenddevelopertools.local.php.dist and send the copy to folder :
 ```sh
 config\autoload
 ```
-rename the file to "zdt.local.php"
+Rename the file to "zdt.local.php"
 
 Go to your mysql and create a db called sis3
 
@@ -40,7 +40,10 @@ Still in the folder root execute this command to validate your db
 ./vendor/bin/doctrine-module orm:validate-schema
 
 ```
-
+Before the steps above, go to the folder public and run this command in bash:
+```sh
+$ php -S localhost:8080
+```
 
 Thanks 
 
